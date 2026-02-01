@@ -62,3 +62,88 @@ nav .menu a:hover {
     transform: scale(1.1);
 }
 
+/* Banner Style */
+#banner {
+    background: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.5) 100%), url('./assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 674px; */
+    padding: 70px 120px 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1360px;
+}
+
+#banner .banner-announcement {
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+#banner .banner-announcement:hover {
+    box-shadow: 0 4px 15px rgba(247, 248, 247, 0.4);
+    transform: scale(1.1);
+}
+
+#banner .banner-announcement img {
+    width: 16px;
+    height: 16px;
+    /* border: none; */
+    border-radius: 8px;
+}
+
+#banner .banner-announcement p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* .banner-announcement p:hover {
+   font-weight: 700;
+} */
+
+.banner-container h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.banner-container h1 .green-part {
+    color: #30B868;
+}
+
+.banner-container p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
