@@ -68,11 +68,12 @@ nav .menu a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* height: 674px; */
+    height: 674px;
     padding: 70px 120px 134px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 #banner .banner-container {
@@ -90,6 +91,7 @@ nav .menu a:hover {
     border: none;
     border-radius: 100px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 6px;
@@ -105,7 +107,7 @@ nav .menu a:hover {
 #banner .banner-announcement img {
     width: 16px;
     height: 16px;
-    /* border: none; */
+    border: none;
     border-radius: 8px;
 }
 
@@ -117,9 +119,9 @@ nav .menu a:hover {
     transition: all 0.3s ease;
 }
 
-/* .banner-announcement p:hover {
+.banner-announcement p:hover {
    font-weight: 700;
-} */
+}
 
 .banner-container h1 {
     font-size: 72px;
@@ -133,7 +135,8 @@ nav .menu a:hover {
     color: #30B868;
 }
 
-.banner-container p {
+/* Target specific paragraph below heading to add spacing without affecting other paragraphs */
+.banner-container .banner-info {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -147,3 +150,4 @@ nav .menu a:hover {
     align-items: center;
     gap: 16px;
 }
+
