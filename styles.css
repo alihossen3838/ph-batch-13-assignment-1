@@ -7,8 +7,8 @@
 
 /* Google Fonts - Inter */
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* Shared Style Section */
@@ -64,7 +64,7 @@ nav .menu a:hover {
 
 /* Style Banner Section */
 #banner {
-    background: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.5) 100%), url('./assets/hero-bg.png');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 100%), url('./assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -120,7 +120,7 @@ nav .menu a:hover {
 }
 
 .banner-announcement p:hover {
-   font-weight: 700;
+    font-weight: 700;
 }
 
 .banner-container h1 {
@@ -153,7 +153,7 @@ nav .menu a:hover {
 
 #t-btn {
     border: solid;
-    background:transparent;
+    background: transparent;
 }
 
 /* Notes Section */
@@ -238,4 +238,12 @@ nav .menu a:hover {
     font-size: 16px;
     font-weight: normal;
     color: #627382;
+}
+
+/* Adjusting description padding to ensure vertical alignment 
+   across all cards, specifically to match the height of the 
+   card with more content.
+*/
+.notes-card .extra-padding {
+    padding-bottom: 28px;
 }
