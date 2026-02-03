@@ -418,6 +418,8 @@ footer {
 }
 
 .footer-divider {
+    border: 0;
+    border-top: 1px solid #FFFFFF;
     margin-bottom: 30.5px;
     opacity: 0.2;
 }
